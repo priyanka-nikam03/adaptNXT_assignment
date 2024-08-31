@@ -62,7 +62,7 @@ app.get('/weather/location', async(request, response) => {
         const response_data = await axios.get(weatherstack_url)
 
         const wData = response_data.data;
-        console.log(waData)
+        console.log(wData)
         response.json(wData)
         
     }  catch(error) {
