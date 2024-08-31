@@ -1,0 +1,1 @@
+GET http://localhost:7080/weather/location?location=LONDON
