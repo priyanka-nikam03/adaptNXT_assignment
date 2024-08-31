@@ -33,7 +33,7 @@ initializeServer()
 
 app.get('/', async(request, response) => {
     try {
-        response.send("Welcome to AdaptNXT weather service!!")
+        response.send("Welcome to AdaptNXT weather service. Please access /weather/location path to get weather data.")
         
     } catch (error) {
         console.log("Error:",e.message)
